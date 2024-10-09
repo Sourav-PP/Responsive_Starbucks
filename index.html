@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/Icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="bg-white container-fluid mb-0 sidebar fade-show">
+        <ul class="list-unstyled d-flex flex-column align-items-end w-100 side">
+          <li onclick=hideSidebar() class="mt-2 hide"><a href=""><i class="bi bi-x-lg fs-3"></i></a></li>
+          <li class="left"><a href="" class="ms-2 fw-semi-bold">MENU</a></li>
+          <li class="left"><a href="" class="ms-2 fw-semi-bold">REWARDS</a></li>
+          <li class="left"><a href="" class="ms-2 fw-semi-bold">GIFT CARDS</a></li>
+        </ul> 
+        <hr>
+        <ul class="list-unstyled d-flex flex-column align-items-start">
+          <ul class="d-flex px-0">
+            <li><button class="btn btn-outline-dark rounded-pill b1 fw-semibold ms-2">Sign In</button></li>
+            <li><button class="btn btn-dark rounded-pill fw-mi- ms-4">Join Now</button></li>
+          </ul>
+          <li><a href="" class=" fw-bold"><i class="bi bi-geo-alt-fill ms-2"></i> Find a Store</a></li>
+        </ul>
+    </header>
+  
+    <header class="bg-white container-fluid m-0 head-nav">
+      <nav class="container-xxl d-flex justify-content-between align-items-center main">
+        <ul class="list-unstyled d-flex justify-content-start align-items-center">
+          <li class="left pt-2"><a href="" class="px-3 fw-bold"><img src="images/Icon.png" alt=""></a></li>
+          <li class="left hide-list"><a href="" class="px-3 fw-bold">MENU</a></li>
+          <li class="left hide-list"><a href="" class="px-3 fw-bold">REWARDS</a></li>
+          <li class="left hide-list"><a href="" class="px-3 fw-bold">GIFT CARDS</a></li>
+        </ul>
+        <ul class="list-unstyled d-flex justify-content-start align-items-center">
+          <li><a href="" class="px-3 fw-bold hide-list"><i class="bi bi-geo-alt-fill"></i> Find a Store</a></li>
+          <li><button class="btn btn-outline-dark rounded-pill b1 fw-semibold ms-4 hide-list">Sign In</button></li>
+          <li><button class="btn btn-dark rounded-pill fw-bold ms-3 hide-list">Join Now</button></li>
+          <li onclick=showSidebar() class="menu-button pt-2"><i class="bi bi-list fs-2"></i></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- section - 1 -->
+
+    <!-- <div class="contain"> -->
+    <div class="container-xxl mt-4 sec1">
+      <div class="row s1">
+        <div class="col-md-6 col-sm-12 d-flex align-items-center p-0">
+          <img src="images/coffee.webp" class="coffee" alt="coffee seed">
+        </div>
+
+        <div class="col-md-6 col-sm-12 m-auto d-flex justify-content-center align-items-center p-0">
+          <div class="seed-text">
+            <h1 class="text-white fs-4 fw-bold">Small been, big impact</h1>
+            <p class="text-white fs-lg-5 mt-4 fw-semibold">Here's to the farmers, roasters and baristas who work relentlessly to craft the perfect cup.</p>
+            <button class="btn btn-outline-light rounded-pill mt-4 bt1 fw-semibold">Explore their stories</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section - 2 -->
+
+    <div class="container-xxl mt-4 sec2">
+      <div class="row s2">
+        <div class="col-md-6 col-sm-12 m-auto d-flex justify-content-center align-items-center p-0">
+          <div class="milano-text">
+            <h1 class="fs-1 fw-bold">One coffee. Two distinct roasts.</h1>
+            <p class="fs-lg-5 mt-4 fw-semibold">Enjoy Starbucks® Milano Sole light roast with notes of vanilla custard and sweet pomegranate. Or Starbucks® Milano Luna dark roast with notes of dark chocolate truffle and black walnut.</p>
+            <button class="btn btn-outline-success rounded-pill mt-4 order-now fw-semibold">Order now</button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 d-flex align-items-center p-0">
+          <img src="images/Milano.jpg" class="coffee" alt="coffee seed">
+        </div>
+      </div>
+    </div>
+
+    <!-- section-3 -->
+
+    <div class="container-xxl mt-4 sec3">
+      <div class="row s3">
+        <div class="col-md-6 col-sm-12 d-flex align-items-center p-0">
+          <img src="images/img3.webp" class="coffee" alt="coffee seed">
+        </div>
+
+        <div class="col-md-6 col-sm-12 m-auto d-flex justify-content-center align-items-center p-0">
+          <div class="seed-text">
+            <h1 class="text-white fs-4 fw-bold">Your treat awaits</h1>
+            <p class="text-white fs-lg-5 mt-4 fw-semibold">Fall in love with Starbucks® Rewards member perks, like a free drink with qualifying purchase during your first week. Valid for one-time use.*</p>
+            <button class="btn btn-outline-light rounded-pill mt-4 bt3 fw-semibold">Join now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-4 -->
+
+    <div class="container-xxl mt-4 sec4">
+      <div class="row s4">
+
+        <div class="col-md-6 col-sm-12 m-auto d-flex justify-content-center align-items-center p-0">
+          <div class="seed-text">
+            <h1 class="text-white fs-1 fw-bold">Find your fall</h1>
+            <p class="text-white fs-lg-5 mt-4 fw-semibold">Embrace fall in full flavor with a Pumpkin Spice Latte, Apple Crisp Oatmilk Macchiato or Chai Latte.</p>
+            <button class="btn btn-outline-light rounded-pill mt-4 bt4 fw-semibold">Order now</button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 d-flex align-items-center p-0">
+          <img src="images/img4.webp" class="coffee" alt="coffee seed">
+        </div>
+      </div>
+    </div>
+
+    <!-- section-5 -->
+
+    <div class="container-xxl mt-4 sec5">
+      <div class="row s4">
+        <div class="col-md-6 col-sm-12 d-flex align-items-center p-0">
+          <img src="images/img5.webp" class="coffee" alt="coffee seed">
+        </div>
+
+        <div class="col-md-6 col-sm-12 m-auto d-flex justify-content-center align-items-center p-0">
+          <div class="seed-text">
+            <h1 class="text-white fs-1 fw-bold">Pecan perfection</h1>
+            <p class="text-white fs-lg-5 mt-4 fw-semibold">Say hello to the nutty new nondairy Pecan Crunch Oatmilk Latte, your comforting companion for a crisp fall day.</p>
+            <button class="btn btn-outline-light rounded-pill mt-4 bt4 fw-semibold">Order now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- section-6 -->
+
+    <div class="container-xxl mt-4 sec6">
+      <div class="row s6">
+
+        <div class="col-md-6 col-sm-12 m-auto d-flex justify-content-center align-items-center p-0">
+          <div class="milano-text">
+            <h1 class="fs-1 fw-bold">Pecan perfection</h1>
+            <p class="fs-lg-5 mt-4 fw-semibold">Say hello to the nutty new nondairy Pecan Crunch Oatmilk Latte, your comforting companion for a crisp fall day.</p>
+            <button class="btn btn-outline-light rounded-pill mt-4 btn6 fw-semibold">Order now</button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 d-flex align-items-center p-0">
+          <img src="images/img6.webp" class="coffee" alt="coffee seed">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- section-7 -->
+
+    <div class="container-xxl mt-4 sec7">
+      <div class="row s7">
+
+        <div class="col-md-6 col-sm-12 d-flex align-items-center p-0">
+          <img src="images/img7.jpg" class="coffee" alt="coffee seed">
+        </div>
+
+        <div class="col-md-6 col-sm-12 m-auto d-flex justify-content-center align-items-center p-0">
+          <div class="milano-text">
+            <h1 class="fw-bold psl he7">Because PSL is baaack</h1>
+            <p class="fs-lg-5 mt-4 fw-semibold">Share the love of pumpkin spice with a Starbucks eGift.</p>
+            <button class="btn btn-outline-light rounded-pill mt-4 btn7 fw-semibold">Send an eGift</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- bottom-text -->
+
+    <div class="container-xxl mt-4 d-flex justify-content-center">
+      <div class="btm-para ">
+        <p class="text-align-center">*Valid only for new Starbucks Rewards members for 7 days from sign up. Offer good at participating stores for a handcrafted menu-sized beverage with eligible purchase ($8 max value). Taxes not included. Excludes alcohol, Starbucks Card and Starbucks Card reloads. Limit one per member. Cannot be combined with other offers or discounts. Product availability varies by store. Excludes delivery services. Sign up from 9/23/2024 - 11/6/2024 to be eligible.</p>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="container-fluid foot-box mt-4">
+      <div class="foot-lists container-xxl d-flex justify-content-center pt-5 border-bottom">
+        <div class="list1 navl mx-3">
+          <h2 class="fs-5">About Us</h2>
+          <ul class="list-unstyled "> 
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Our Company</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Our Coffee</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Stories and News</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Starbucks Archieve</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Investor Relations</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Customer Service</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="list2 navl mx-3">
+          <h2 class="fs-5">Careers</h2>
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Culture and Values</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Inclusion,Diversity and Equity</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">College Achievemnt Plan</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Alumni Community</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">U.S Careers</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">International Careers</a></li>
+          </ul>
+        </div>
+        <div class="list3 navl mx-3">
+          <h2 class="fs-5">Social Impact</h2>
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">People</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Planet</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Environmental and Social Impact Reporting</a></li>
+          </ul>
+        </div> 
+        <div class="list4 navl mx-3">
+          <h2 class="fs-5">For Business Partners</h2>
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Landlord Support Center</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Suppliers</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Corporate Gift Card Sales</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Office and Foodservice Coffee</a></li>
+          </ul>
+        </div>
+        <div class="list5 navl mx-3">
+          <h2 class="fs-5">Order and Pick Up</h2>
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Order on the App</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Order on the Web</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Delivery</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Order and Pick Up Options</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Explore and Find Coffee for Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Expandable footer -->
+
+    <section class="container-fluid px-4 ">
+      <div class="drop pb-2 border-bottom border-dark-subtle mt-3">
+        <div class="head d-flex justify-content-between align-items-center">
+          <h3 class="fs-5 eh">About Us</h3>
+          <i class="bi bi-chevron-down fs-5"></i>
+        </div>
+
+        <div class="list-body">
+          <ul class="list-unstyled "> 
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Our Company</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Our Coffee</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Stories and News</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Starbucks Archieve</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Investor Relations</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Customer Service</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="drop pb-2 border-bottom border-dark-subtle mt-3">
+        <div class="head d-flex justify-content-between align-items-center">
+          <h3 class="fs-5 eh">Careers</h3>
+          <i class="bi bi-chevron-down fs-5"></i>
+        </div>
+
+        <div class="list-body">
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Culture and Values</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Inclusion,Diversity and Equity</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">College Achievemnt Plan</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Alumni Community</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">U.S Careers</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">International Careers</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="drop pb-2 border-bottom border-dark-subtle mt-3">
+        <div class="head d-flex justify-content-between align-items-center">
+          <h3 class="fs-5 eh">Social Impact</h3>
+          <i class="bi bi-chevron-down fs-5"></i>
+        </div>
+
+        <div class="list-body">
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">People</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Planet</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Environmental and Social Impact Reporting</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="drop pb-2 border-bottom border-dark-subtle mt-3">
+        <div class="head d-flex justify-content-between align-items-center">
+          <h3 class="fs-5 eh">For Bussiness Partners</h3>
+          <i class="bi bi-chevron-down fs-5"></i>
+        </div>
+
+        <div class="list-body">
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Landlord Support Center</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Suppliers</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Corporate Gift Card Sales</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Office and Foodservice Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="drop pb-2 border-bottom border-dark-subtle mt-3">
+        <div class="head d-flex justify-content-between align-items-center">
+          <h3 class="fs-5 eh">Order and Pick Up</h3>
+          <i class="bi bi-chevron-down fs-5"></i>
+        </div>
+
+        <div class="list-body">
+          <ul class="list-unstyled">
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Order on the App</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Order on the Web</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Delivery</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Order and Pick Up Options</a></li>
+            <li class="my-3"><a href="" class="text-secondary fw-semibold text-decoration-none">Explore and Find Coffee for Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- icons -->
+
+    <div class="container-flui mt-4">
+      <div class="container d-flex flex-column align-items-center">
+        <ul class="icon-sec list-unstyled d-flex">
+          <li><a href="" class="text-dark mx-2 fs-2"><i class="bi bi-spotify"></i></a></li>
+          <li><a href="" class="text-dark mx-2 fs-2"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="" class="text-dark mx-2 fs-2"><i class="bi bi-pinterest"></i></a></li>
+          <li><a href="" class="text-dark mx-2 fs-2"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="" class="text-dark mx-2 fs-2"><i class="bi bi-youtube"></i></a></li>
+          <li><a href="" class="text-dark mx-2 fs-2"><i class="bi bi-twitter"></i></a></li>
+        </ul>
+
+        <ul class="end-list list-unstyled d-flex flex-column align-items-center">
+          <li class="my-2"><a href="" class="text-dark text-decoration-none">Privay Notice</a></li>
+          <li class="my-2"><a href="" class="text-dark text-decoration-none">Consumer Health Privacy Notice</a></li>
+          <li class="my-2"><a href="" class="text-dark text-decoration-none">Terms of Use</a></li>
+          <li class="my-2"><a href="" class="text-dark text-decoration-none">Do not Share My Personal Information</a></li>
+          <li class="my-2"><a href="" class="text-dark text-decoration-none">CA Supply Chain Act</a></li>
+          <li class="my-2"><a href="" class="text-dark text-decoration-none">Accessibility</a></li>
+          <li class="my-2"><a href="" class="text-dark text-decoration-none">Cookie Preference</a></li>
+          <li class="my-2"><a href="" class="text-secondary text-decoration-none copyright text-align-center">&copy; 2024 Starbucks Coffee Company. All rights reserved.</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+   <!--Java script link-->
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.head-nav {
+    box-shadow: 0 5px 5px lightgray;
+    position: relative;
+    width: 100%;
+}
+header img {
+    width: 2.5em;
+}
+
+header li {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+}
+
+header a:hover {
+    color: #047547 ;
+}
+.left {
+    margin-right: auto;
+}
+
+.b1:hover{
+    background-color: lightgray;
+    color: black;
+    
+}
+
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    top: 0;     
+    right: -80%;
+    width: 80%;
+    z-index: 999;
+    flex-direction: column;
+    transition:right 0.75s ease-in-out;
+}
+
+.sidebar li {
+    height: 0;
+    padding: 30px 0px;
+}
+
+.hide {
+    margin-right: 2.3rem;
+}
+
+.menu-button {
+    display: none;
+}
+
+/* section-1 */
+
+.s1 {
+    background-color: #047547;
+}
+
+.coffee {
+    width: 100%;
+    height: auto;
+}
+
+.col,.col-xl-6,.col-sm-12 {
+    max-height: auto;
+}
+
+.seed-text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 48px;
+}
+
+.bt1:hover {
+    background-color: #005e38;
+    color: #fff;
+}
+
+/* section-2 */
+
+.s2 {
+    background-color: #d9e79b;
+    flex-wrap: wrap-reverse;
+}
+
+.milano-text {
+    width: 90%;
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #1E3932;
+}
+
+.milano-text h1 {
+    letter-spacing: 2px;
+}
+
+.order-now {
+    border-color: #1E3932;
+    color: #1E3932;
+}
+
+.order-now:hover {
+    background-color: #ccd79a;
+    color:#1E3932 ;
+}
+
+.bt3:hover {
+    background-color: #005e38;
+    color: #fff;
+}
+
+/* section-3 */
+
+.s3 {
+    background-color: #047547;
+}
+
+/* section-4 */
+
+.s4 {
+    background-color: #9e2340;
+    flex-wrap: wrap-reverse;
+}
+
+.bt4:hover {
+    background-color: #851932;
+    color: #fff;
+}
+
+/* section-6 */
+
+.s6 {
+    background-color: #d2d755;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.btn6 {
+    color:#1E3932 ;
+    border-color: #1E3932;
+}
+
+.btn6:hover {
+    background-color: #bec24c;
+    color:#1E3932 ;
+    border-color:#1E3932 ;
+}
+
+/* section-7 */
+
+.s7 {
+    background-color: #febf9e ;
+}
+
+.psl {
+    font-size: 50px;
+}
+
+.btn7 {
+    border-color:#1E3932 ;
+    color: #1E3932;
+}
+
+.btn7:hover {
+    background-color:#efab86 ;
+    color:#1E3932 ;
+    border-color:#1E3932 ;
+}
+
+/* bottom text */
+
+.btm-para {
+    text-align: center;
+    width: 60%;
+}
+
+.navl {
+    width: 15%;
+}
+
+/* footer */
+
+.foot-box {
+    box-shadow: 0 -6px 5px rgb(237, 237, 237) ;
+}
+
+/* expandabel footer */
+
+section {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.list-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1.6s ease;
+}
+
+.drop.active .list-body {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.drop.active i {
+   transform: rotate(180deg); 
+}
+
+i {
+    transition: 1.3s ease;
+}
+
+/* foot icons */
+
+.copyright {
+    font-size: .9em;
+}
+
+
+
+
+/* animation */
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/* Media quary */
+
+@media (max-width: 1024px) {
+    section {
+        display: block;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 2em;
+    }
+
+    p {
+        font-size:px !important;
+    }
+
+    .he7 {
+        font-size: 33px !important;
+    }
+}
+
+@media (max-width:860px) {
+    .hide-list {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .head-nav, header li {
+        height: 80px;
+    }
+
+    .main  {
+        height: 80px;
+    }
+
+    .he7 {
+        font-size: 25px !important;
+    }
+
+    .eh {
+        font-size: 17px !important;
+    }
+}
+
+
+
+
+
